@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: aqua;
+    font-family: "Baloo tomma 2", sans-serif;
+}
+
+.navbar {
+    background: #222;
+    border-top: 2px solid #f2a900;
+    padding: 12px 40px !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #f2a900 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.m-heading {
+    font-family: monospace;
+    font-size: 2.5rem;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.magnific.com/free-vector/abstract-banner-with-low-poly-plexus-design_1048-20642.jpg?semt=ais_hybrid&w=740&q=80");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffc107;
+    transition: 1.3s smooth;
+}
